@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+
+
+header {
+  background-color: rgb(46, 46, 46);
+  display: flex;
+  padding: 10px 150px;
+  font-size: 20px;
+  color: #969696;
+  font-family: Arial;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 25px 50px;
+}
+
+main section article {
+  margin: 30px 150px 15px 150px;
+}
+main section article:first-child img {
+  width: 100%;
+}
+
+main section article:nth-child(2) div {
+  display: inline-block;
+  width: 31.4%;
+}
+main section article:nth-child(2) div:nth-child(2) {
+  padding: 0px 30px;
+}
+
+
+footer {
+  margin-top: 15px;
+  clear: both;
+  height: 150px;
+  background-color: #444;
+}
